@@ -23,21 +23,30 @@
 						<p>A extension to use web-animations inside RevealJs presentations</p>
 					</section>
 					<section>
+						<h2>Install the plugin locally</h2>
+						<pre>
+							<code class="shell" data-trim>
+								npm install revealjs-animated
+							</code>
+						</pre>
+					</section>
+					<section>
 						<div class="grid-container">
 							<div style="grid-column-start: 2; grid-column-end: 12">
 								<h2>How to use it</h2>
 							</div>
-							<div style="grid-column-start: 3; grid-column-end: 11">
+							<div style="grid-column-start: 2; grid-column-end: 12">
 								<p>Add the plugin to RevealJs</p>
 								<pre>
 									<code class="javascript" data-trim>
 										//index.html
 										Reveal.initialize({
-											// Other configurations
-											dependencies: [
-												// Other plugins
-												{src: 'node_modules/revealjs-animated/dist/revealjs-animated.js', async: true}
-											]
+										  // Other configurations
+										  dependencies: [
+										    // Other plugins
+										    {src: 'node_modules/revealjs-animated/dist/revealjs-animated.js',
+										    async: true}
+										  ]
 										});
 									</code>
 								</pre>
