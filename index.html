@@ -28,11 +28,17 @@
 								<h2>How to use it</h2>
 							</div>
 							<div style="grid-column-start: 3; grid-column-end: 11">
-								<p>Import the required libraries</p>
+								<p>Add the plugin to RevealJs</p>
 								<pre>
-									<code class="html" data-trim>
-										<script src="js/web-animations.min.js"></script>
-										<script src="js/revealjs-animated.js"></script>	
+									<code class="javascript" data-trim>
+										//index.html
+										Reveal.initialize({
+											// Other configurations
+											dependencies: [
+												// Other plugins
+												{src: 'node_modules/revealjs-animated/dist/revealjs-animated.js', async: true}
+											]
+										});
 									</code>
 								</pre>
 							</div>
