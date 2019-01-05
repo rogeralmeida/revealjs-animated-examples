@@ -67,14 +67,14 @@
 							<div style="grid-column-start: 1; grid-column-end: 13">
 								<p>Add properties to the elements you want to animate</p>
 								<pre >
-									<code class="html" style="white-space: pre-line" data-trim data-noscape>
-										<h1 
+									<code class="html" data-trim>
+										&lt;h1
 											class="fragment animated move-to-middle-top"  
 											data-animated-duration="1000" 
 											data-animated-iterations="1" 
-											data-animated-fill="forwards">
+											data-animated-fill="forwards"&gt;
 											Animated Title
-										</h1>
+										&lt;/h1&gt;
 									</code>
 								</pre>
 								Have Fun!
@@ -90,15 +90,15 @@
 						<h1 class="fragment animated move-to-middle-top">Middle Top</h1>
 						<pre>
 							<code class="html" data-trim>
-								<h1 id="titulo" class="fragment animated move-to-middle-top">Middle Top</h1>
+								&lt;h1 id="titulo" class="fragment animated move-to-middle-top"&gt;Middle Top&lt;/h1&gt;
 							</code>
 						</pre>
 					</section>
 					<section>
-						<h1 id="titulo" class="fragment animated move-to-middle-top" data-animated-kind="top-center" data-animated-duration="100" data-animated-iterations="1" data-animated-fill="forwards">Middle Top</h1>
+						<h1 id="titulo" class="fragment animated move-to-middle-top"  data-animated-duration="100">Middle Top</h1>
 						<pre>
 							<code class="html" style="white-space: pre-line" data-trim>
-								<h1 id="titulo" class="fragment animated move-to-middle-top" data-animated-kind="top-center" data-animated-duration="100" data-animated-iterations="1" data-animated-fill="forwards">Middle Top</h1>
+								&lt;h1 id="titulo" class="fragment animated move-to-middle-top"  data-animated-duration="100"&gt;Middle Top&lt;/h1&gt;
 							</code>
 						</pre>
 					</section>
@@ -112,16 +112,16 @@
 						<p class="fragment animated move-to">Default Parameters</p>
 						<pre>
 							<code class="html" data-trim>
-								<p class="fragment animated move-to">Default Parameters</p>
+								&lt;p class="fragment animated move-to"&gt;Default Parameters&lt;/p&gt;
 							</code>
 						</pre>
 					</section>
 					<section>
 						<h1>Move to specific positions</h1>
-						<p class="fragment animated move-to" data-move-to-left="-90px" data-move-to-top="20px" data-animated-duration="300" data-animated-iterations="1" data-animated-fill="forwards">One Item</p>
+						<p class="fragment animated move-to" data-move-to-left="-50%" data-move-to-top="300px" data-animated-duration="3000">One Item</p>
 						<pre>
 							<code class="html" data-trim>
-								<p class="fragment animated move-to" data-move-to-left="-90px" data-move-to-top="20px" data-animated-duration="300" data-animated-iterations="1" data-animated-fill="forwards">One Item</p>
+								&lt;p class="fragment animated move-to" data-move-to-left="-50%" data-move-to-top="300px" data-animated-duration="3000"&gt;One Item&lt;/p&gt;
 							</code>
 						</pre>
 					</section>
@@ -130,7 +130,7 @@
 						<p class="fragment animated move-to" data-move-to-left="100px" data-move-to-top="29px" data-animated-duration="1000" data-animated-iterations="1" data-animated-fill="forwards">Second Item</p>
 						<pre>
 							<code class="html" data-trim>
-								<p class="fragment animated move-to" data-move-to-left="100px" data-move-to-top="29px" data-animated-duration="1000" data-animated-iterations="1" data-animated-fill="forwards">Second Item</p>
+								&lt;p class="fragment animated move-to" data-move-to-left="100px" data-move-to-top="29px" data-animated-duration="1000" data-animated-iterations="1" data-animated-fill="forwards"&gt;Second Item&lt;/p&gt;
 							</code>
 						</pre>
 					</section>
@@ -144,7 +144,7 @@
 						<p class="fragment animated scale-up">Let me Grow!</p>
 						<pre>
 							<code data-trim>
-								<p class="fragment animated scale-up">Let me Grow!</p>
+								&lt;p class="fragment animated scale-up"&gt;Let me Grow!&lt;/p&gt;
 							</code>
 						</pre>
 					</section>
@@ -153,7 +153,7 @@
 						<p class="fragment animated scale-up" data-scale-up-to="4">I'm a giant!</p>
 						<pre>
 							<code class="html" data-trim>
-								<p class="fragment animated scale-up" data-scale-up-to="4">I'm a giant!</p>
+								&lt;p class="fragment animated scale-up" data-scale-up-to="4"&gt;I'm a giant!&lt;/p&gt;
 							</code>
 						</pre>
 					</section>
@@ -166,17 +166,17 @@
 						<h1>Scale Down</h1>
 						<p class="fragment animated scale-down">Let me Shrink!</p>
 						<pre>
-							<code data-trim>
-								<p class="fragment animated scale-down">Let me Shrink!</p>
+							<code class="html" data-trim>
+								&lt;p class="fragment animated scale-down"&gt;Let me Shrink!&lt;/p&gt;
 							</code>
 						</pre>
 					</section>
 					<section>
 						<h1>Scale Down</h1>
-						<p class="fragment animated scale-down" data-scale-down-iterations="3">Let me Shrink!</p>
+						<p class="fragment animated scale-down" data-animated-iterations="3">Let me Shrink!</p>
 						<pre>
-							<code data-trim>
-								<p class="fragment animated scale-down" data-scale-down-iterations="3">Let me Shrink!</p>
+							<code class="html" data-trim>
+								&lt;p class="fragment animated scale-down" data-animated-iterations="3"&gt;Let me Shrink!&lt;/p&gt;
 							</code>
 						</pre>
 					</section>
@@ -184,7 +184,45 @@
 				<section>
 					<section>
 						<h1 class="rotate">Rotate</h1>
+					</section>
+					<section>
+						<h1 class="rotate">Rotate</h1>
 						<p class="fragment animated rotate">Rotate</p>
+						<pre>
+							<code class="html" data-trim>
+								&lt;p class="fragment animated rotate"&gt;Rotate&lt;/p&gt;
+							</code>
+						</pre>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Combos</h1>
+					</section>
+					<section>
+						<h1>Combo</h1>
+						<p class="fragment animated move-to-middle-top rotate">Move to top and rotate</p>
+						<pre>
+							<code class="html" data-trim>
+								&lt;p class="fragment animated move-to-middle-top rotate"&gt;Twist to Top&lt;/p&gt;
+							</code>
+						</pre>
+					</section>
+					<section>
+						<div class="fragment animated scale-up">
+							<div class="fragment animated rotate">
+								Animations in serie
+							</div>
+						</div>
+						<pre>
+							<code class="html" data-trim>
+								&lt;div class="fragment animated scale-up"&gt;
+									&lt;div class="fragment animated rotate"&gt;
+										Animations in serie
+									&lt;/div&gt;
+								&lt;/div&gt;
+							</code>
+						</pre>
 					</section>
 				</section>
 			</div>
@@ -192,6 +230,7 @@
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
+		<script src="node_modules/web-animations-js/web-animations.min.js"></script>
 
 		<script>
 			// More info about config & dependencies:
@@ -205,15 +244,17 @@
 				slideNumber: true,
 				minScale: 1,
 				maxScale: 1,
-					dependencies: [
-						{ src: 'plugin/markdown/marked.js' },
-						{ src: 'plugin/markdown/markdown.js' },
-						{ src: 'plugin/notes/notes.js', async: true },
-						{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { 
-							hljs.initHighlightingOnLoad(); 
-						} },
-						{ src: 'plugin/revealjs-animated/revealjs-animated.js', async: true }
-					]
+				controlsLayout: 'edges',
+				history: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { 
+						hljs.initHighlightingOnLoad(); 
+					} },
+					{ src: 'plugin/revealjs-animated/revealjs-animated.js', async: true }
+				]
 				});
 			</script>
 		</body>
