@@ -41,6 +41,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "revealjs-animated": "^1.1.2"
+    "revealjs-animated": "^1.2.2"
   }
 }
